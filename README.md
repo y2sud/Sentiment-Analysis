@@ -19,7 +19,9 @@ https://code.google.com/archive/p/word2vec/
 
 5. Train a model using RNN-LSTM (using Keras framework)
 
-6. Test the model against data from IMDB, or your own set of sentences.
+6. Test the model against data from IMDB, or your own set of sentences. The output of this model gives weights for [positive, negative]
 
 
-
+model_epoch45.h5:
+I've saved a model built using above code. This works reasonably well, but far from perfect. One can directly load this model & start testing - no need to run above steps.
+Each epoch of model building takes ~11 mins on a 16GB i7 processor. 
